@@ -196,7 +196,7 @@ nav a {
   font-size: 1.6rem;
 }
 hr {
-  border: 1px dashed #bab9b9;
+  border-top: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
@@ -254,4 +254,18 @@ hr {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+header .header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .main-head {
+  margin: 30px;
+  width: 70%;
+}
+header .short-dash {
+  border-top: 2px dashed #C0C0C0;
+  width: 70%;
 }
