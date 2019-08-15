@@ -2,6 +2,10 @@
 nav{
    .center();
    justify-content: space-around;
+
+   @media @mobile{
+       flex-direction: column;
+   }
     h1{
         .center();
         margin:10px 0;
@@ -12,10 +16,11 @@ nav{
    }
      a{
         .center();
+        color:@shark;
         justify-content: space-evenly;
         text-decoration: none;
         margin-right:40px;
-        color:@shark;
+       
         font-size: 1.6rem;
      }
 }
