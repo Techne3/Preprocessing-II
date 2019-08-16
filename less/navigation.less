@@ -1,1 +1,28 @@
 // Navigation Styles here
+nav{
+   .center();
+   justify-content: space-around;
+
+   @media @mobile{
+       flex-direction: column;
+   }
+    h1{
+        .center();
+        margin:10px 0;
+        color:@shark;
+    }
+   .links{
+    display: flex;
+   }
+     a{
+        .center();
+        color:@shark;
+        justify-content: space-evenly;
+        text-decoration: none;
+        margin-right:40px;
+        font-size: 1.6rem;
+     }
+}
+hr{
+    .dashed();
+}

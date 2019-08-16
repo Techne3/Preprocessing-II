@@ -1,1 +1,16 @@
 // Mixins in here
+
+.center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashed(){
+      border-top:2px dashed @silver;
+}
+
+.new-button(@colors, @radius){
+    background-color:@colors;
+    border-radius:@radius;
+   
+}
